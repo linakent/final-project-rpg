@@ -1,0 +1,84 @@
+{
+  "name": "Matcha Mouse RPG",
+  "short_name": "Matcha Mouse RPG",
+  "id": "com.example.topdownrpg",
+  "description": "A monster tamer style top down rpg game example. Including top down movement, scrolling text during chat, camera controls, and a simple battle sequence.",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "65ed99cc3f000dc637ab3a52119e6a1de63ef45d3c56ee30194e00533d439487-ios-icon-20.png.png",
+        "sizes": "20x20"
+      },{
+        "src": "e5842ae6c42f449e27ca1aa0b656ee01816103ffa7b3dbaedc4d8fac2fefd107-ios-icon-29.png.png",
+        "sizes": "29x29"
+      },{
+        "src": "f45419ad5bc0fd166b0f4e08eaeaecf89a1283c038522a548a770dabddaf3b38-android-icon-36.png.png",
+        "sizes": "36x36"
+      },{
+        "src": "4ece88e6e426147657209a458be6f672b933e7e1012ff7e981e793e07320f07b-ios-icon-40.png.png",
+        "sizes": "40x40"
+      },{
+        "src": "200843296c545e4893b38cb0231e09504f5e85eb920a9bcb08b3cb48b9bd25ad-android-icon-48.png.png",
+        "sizes": "48x48"
+      },{
+        "src": "7d304d7c7de8c2cde7811e1636c86c62ac67d2495796126f4dc62754e45d811b-ios-icon-50.png.png",
+        "sizes": "50x50"
+      },{
+        "src": "3fe116f5097c5bdb2034f6a300a9cecd56c21f79e66cc86607aed48c3ec5a70a-ios-icon-57.png.png",
+        "sizes": "57x57"
+      },{
+        "src": "a2110ef26bfd82cecfa4feb161fbe223e4626968e33df9a199b9b40fd54b7d21-ios-icon-58.png.png",
+        "sizes": "58x58"
+      },{
+        "src": "7c1113bce01ff2db9bd74f9f9276575f6fbe11207a87dddce28f65c4609b9a2e-ios-icon-60.png.png",
+        "sizes": "60x60"
+      },{
+        "src": "3db22af288e84015f6c494586cdaaa6b25a9541c2af4a993adab82c272b51eb5-android-icon-72.png.png",
+        "sizes": "72x72"
+      },{
+        "src": "3b9429e61407a4ee5ba88b531915e97fc63d5f173e2bf494503dbe11ddd848c9-ios-icon-76.png.png",
+        "sizes": "76x76"
+      },{
+        "src": "df58a62bc8672e104bc472eb382682c43605ea942d1f0dd4e89b98c86d3c8c30-ios-icon-80.png.png",
+        "sizes": "80x80"
+      },{
+        "src": "63b1ef387af299ccab07e9d604fd703bda0328de696daf685cc1163140d070ae-ios-icon-87.png.png",
+        "sizes": "87x87"
+      },{
+        "src": "722ca0f03494e6c4f9c9f52a9b462b8a04baf8d564cb775969d3f6dcb1413d83-android-icon-96.png.png",
+        "sizes": "96x96"
+      },{
+        "src": "95223583790d01df4894280ba93dbe2a312e61f0a74290b51f33afee86bb3353-ios-icon-100.png.png",
+        "sizes": "100x100"
+      },{
+        "src": "1a248b14ee625c7e4754f7b0fa7b3ebdec84fbe407aa16c44ed42d4eb0e67e50-ios-icon-114.png.png",
+        "sizes": "114x114"
+      },{
+        "src": "680616848dc267d5f735348160ad4f4178288210b60e825e4fdb752c99c31816-ios-icon-120.png.png",
+        "sizes": "120x120"
+      },{
+        "src": "c9317ad7a223fd022260eaa1fece70d16c17d5b78d03cf659be33ddb3933cb72-android-icon-144.png.png",
+        "sizes": "144x144"
+      },{
+        "src": "9a68283d973fe36081639aee4601562cc07c31c4e83c1deefe808ba738774851-ios-icon-152.png.png",
+        "sizes": "152x152"
+      },{
+        "src": "a9983a552639fd53d192af8cad82deb0ef94410baceaa0c19e5a45862ad0cab6-ios-icon-167.png.png",
+        "sizes": "167x167"
+      },{
+        "src": "8f3fb18f927ad500c59e066decf887f89027d9ddd1553e0a58ab17699d2132bd-ios-icon-180.png.png",
+        "sizes": "180x180"
+      },{
+        "src": "5d341d766393de06a6f6e3d1ac18a6de18ec5327d42c24b0b8a522bafc17ae40-android-icon-192.png.png",
+        "sizes": "192x192"
+      },{
+        "src": "385c73cb9a00d8086897cdeb5fd53237bd6867081f295d02e775b1ac2becce20-desktop-icon-512.png.png",
+        "sizes": "512x512"
+      },{
+        "src": "15e9cf73a7e819e87f4f535ada752bec2746818b764ca0fbd00e39298e458d67-ios-icon-1024.png.png",
+        "sizes": "1024x1024"
+      }]
+}
