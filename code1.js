@@ -188,7 +188,7 @@ gdjs.copyArray(runtimeScene.getObjects("Enemy"), gdjs.BattleCode.GDEnemyObjects3
     gdjs.BattleCode.GDEnemyObjects3[i].getBehavior("Health").Hit(10, true, true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.BattleCode.GDDialogueObjects3.length ;i < len;++i) {
-    gdjs.BattleCode.GDDialogueObjects3[i].getBehavior("Text").setText("You attacked your enemy.");
+    gdjs.BattleCode.GDDialogueObjects3[i].getBehavior("Text").setText("Ouch! The enemy takes damage.");
 }
 }
 { //Subevents
@@ -423,7 +423,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.BattleCode.GDPlayerObject
     gdjs.BattleCode.GDPlayerObjects3[i].getBehavior("Health").Hit(10, true, true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.BattleCode.GDDialogueObjects3.length ;i < len;++i) {
-    gdjs.BattleCode.GDDialogueObjects3[i].getBehavior("Text").setText("Your enemy attacked you.");
+    gdjs.BattleCode.GDDialogueObjects3[i].getBehavior("Text").setText("The enemy attacked you! Matcha takes ");
 }
 }
 { //Subevents

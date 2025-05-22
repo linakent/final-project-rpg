@@ -23,7 +23,7 @@ if (playerId < 0 || playerId > 4) {
 
 const gamepad = gamepads[playerId];
 
-//we need keep this condition because when use have not yet plug her controller we can't get the controller in the gamepad variable.
+//we need keep this condition because when you haven't yet plugged in the controller we can't get the controller in the gamepad variable.
 if (gamepad == null) return;
 
 eventsFunctionContext.returnValue = (gamepad && gamepad.id) ? gamepad.id : "No information for player " + (playerId + 1)
