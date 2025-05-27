@@ -399,7 +399,7 @@ for(var i = 0, len = gdjs.OverworldCode.GDTilemap_9595WaterObjects1.length ;i < 
     gdjs.OverworldCode.GDDialogBoxObjects1[i].hide();
 }
 }{for(var i = 0, len = gdjs.OverworldCode.GDBush1Objects1.length ;i < len;++i) {
-    gdjs.OverworldCode.GDBush1Objects1[i].getBehavior("Scale").setScale(0.5);
+    gdjs.OverworldCode.GDBush1Objects1[i].getBehavior("Scale").setScale(1.0);
 }
 }}
 
