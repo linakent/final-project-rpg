@@ -60,8 +60,6 @@ gdjs.OverworldCode.GDTransitionObjects1= [];
 gdjs.OverworldCode.GDTransitionObjects2= [];
 gdjs.OverworldCode.GDTransitionObjects3= [];
 gdjs.OverworldCode.GDTransitionObjects4= [];
-
-
 gdjs.OverworldCode.mapOfGDgdjs_9546OverworldCode_9546GDTree1Objects1ObjectsGDgdjs_9546OverworldCode_9546GDBush1Objects1ObjectsGDgdjs_9546OverworldCode_9546GDTree2Objects1ObjectsGDgdjs_9546OverworldCode_9546GDHouse1Objects1ObjectsGDgdjs_9546OverworldCode_9546GDHouse2Objects1ObjectsGDgdjs_9546OverworldCode_9546GDNPCObjects1ObjectsGDgdjs_9546OverworldCode_9546GDTilemap_95959595GroundObjects1ObjectsGDgdjs_9546OverworldCode_9546GDTilemap_95959595WaterObjects1Objects = Hashtable.newFrom({"Tree1": gdjs.OverworldCode.GDTree1Objects1, "Bush1": gdjs.OverworldCode.GDBush1Objects1, "Tree2": gdjs.OverworldCode.GDTree2Objects1, "House1": gdjs.OverworldCode.GDHouse1Objects1, "House2": gdjs.OverworldCode.GDHouse2Objects1, "NPC": gdjs.OverworldCode.GDNPCObjects1, "Tilemap_Ground": gdjs.OverworldCode.GDTilemap_9595GroundObjects1, "Tilemap_Water": gdjs.OverworldCode.GDTilemap_9595WaterObjects1});
 gdjs.OverworldCode.mapOfGDgdjs_9546OverworldCode_9546GDMatcha_95959595MouseObjects2Objects = Hashtable.newFrom({"Matcha_Mouse": gdjs.OverworldCode.GDMatcha_9595MouseObjects2});
 gdjs.OverworldCode.mapOfGDgdjs_9546OverworldCode_9546GDNPCObjects2Objects = Hashtable.newFrom({"NPC": gdjs.OverworldCode.GDNPCObjects2});
@@ -85,9 +83,8 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.25
 
 }
 
-
 };gdjs.OverworldCode.eventsList1 = function(runtimeScene) {
-
+   
 {
 
 gdjs.copyArray(gdjs.OverworldCode.GDDialogBoxObjects2, gdjs.OverworldCode.GDDialogBoxObjects3);
@@ -153,8 +150,7 @@ gdjs.copyArray(runtimeScene.getObjects("Matcha_Mouse"), gdjs.OverworldCode.GDMat
 
 };gdjs.OverworldCode.eventsList2 = function(runtimeScene) {
 
-{
-
+{ 
 gdjs.copyArray(runtimeScene.getObjects("Matcha_Mouse"), gdjs.OverworldCode.GDMatcha_9595MouseObjects2);
 gdjs.copyArray(runtimeScene.getObjects("NPC"), gdjs.OverworldCode.GDNPCObjects2);
 
@@ -224,7 +220,6 @@ if (isConditionTrue_0) {
 { //Subevents
 gdjs.OverworldCode.eventsList1(runtimeScene);} //End of subevents
 }
-
 }
 
 
@@ -235,6 +230,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustResumed(runtimeScene);
 if (isConditionTrue_0) {
+
 gdjs.copyArray(runtimeScene.getObjects("DialogBox"), gdjs.OverworldCode.GDDialogBoxObjects1);
 gdjs.copyArray(runtimeScene.getObjects("E"), gdjs.OverworldCode.GDEObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Matcha_Mouse"), gdjs.OverworldCode.GDMatcha_9595MouseObjects1);
