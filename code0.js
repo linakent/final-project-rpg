@@ -397,7 +397,10 @@ for(var i = 0, len = gdjs.OverworldCode.GDTilemap_9595WaterObjects1.length ;i < 
 }{for(var i = 0, len = gdjs.OverworldCode.GDBush1Objects1.length ;i < len;++i) {
     gdjs.OverworldCode.GDBush1Objects1[i].getBehavior("Scale").setScale(1.0);
 }
-}}
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "song.wav", false, 50, 1);
+}
+}
 
 }
 
@@ -420,7 +423,8 @@ gdjs.copyArray(runtimeScene.getObjects("Tree2"), gdjs.OverworldCode.GDTree2Objec
     gdjs.OverworldCode.GDMatcha_9595MouseObjects1[i].separateFromObjectsList(gdjs.OverworldCode.mapOfGDgdjs_9546OverworldCode_9546GDTree1Objects1ObjectsGDgdjs_9546OverworldCode_9546GDBush1Objects1ObjectsGDgdjs_9546OverworldCode_9546GDTree2Objects1ObjectsGDgdjs_9546OverworldCode_9546GDHouse1Objects1ObjectsGDgdjs_9546OverworldCode_9546GDHouse2Objects1ObjectsGDgdjs_9546OverworldCode_9546GDNPCObjects1ObjectsGDgdjs_9546OverworldCode_9546GDTilemap_95959595GroundObjects1ObjectsGDgdjs_9546OverworldCode_9546GDTilemap_95959595WaterObjects1Objects, false);
 }
 }{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.OverworldCode.GDMatcha_9595MouseObjects1.length !== 0 ? gdjs.OverworldCode.GDMatcha_9595MouseObjects1[0] : null), true, "", 0);
-}}
+}
+}
 
 }
 
